@@ -1,0 +1,74 @@
+/* 
+Author: Gohur Ali
+Version: 04172021    
+*/
+h1 {
+    margin: auto;
+    text-align: center;
+    color:black;
+}
+
+.bodyContent{
+    margin:10px auto;
+
+    background-color: white;
+    width: 88%;
+    height: 75vh;
+
+    padding: 10px;
+    border-radius: 10px;
+}
+
+body {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.MessageForm{
+    margin: auto;
+    text-align: center;
+}
+
+.chatLog{
+    margin: auto;
+    text-align: center;
+    width: 50rem;
+    height: 28rem;
+    border: 5px solid black;
+    border-radius: 10px;
+
+    overflow-y: auto;
+}
+
+.chatLogTable{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+tr{
+    border: 2px solid orange;
+    width: 100%;
+}
+
+.userMsg{
+    width: 100%;
+}
+#clientMsg{
+    border: 2px solid cyan;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 5px;
+}
+#clientName{
+    border: 2px solid cyan;
+    border-radius: 10px;
+    margin-bottom:5px;
+
+}
+
+.msgBtn{
+    margin: 10px;
+    width: 20%
+}
